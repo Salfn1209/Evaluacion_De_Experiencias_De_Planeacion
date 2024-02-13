@@ -143,12 +143,9 @@ body {
     padding: 5px;
   }
 
-  #img1 {
+  img#img1 {
     width: 100%;
     height: auto;
   }
-
-  section img:hover {
-    width: 100%;
-  }
 }
+
