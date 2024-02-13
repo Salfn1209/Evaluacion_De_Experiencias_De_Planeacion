@@ -135,27 +135,31 @@ section img:hover {
     opacity: 1;
     filter: contrast(120%);
 }
-
+/* Estilos para sección de imágenes */
 section {
-  display: flex;
-  justify-content: center;
-  margin: auto; /* Esto centrará el section horizontalmente */
-  width: 900px;
-  height: 430px;
-  margin-top: 10px;
-}
-
-section img {
-  width: 0px;
-  flex-grow: 1;
-  object-fit: cover;
-  opacity: .8;
-  transition: .5s ease;
-}
-
-section img:hover {
-  cursor: crosshair;
-  width: 400px;
-  opacity: 1;
-  filter: contrast(120%);
-}
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Permitir que las imágenes se envuelvan en pantallas más pequeñas */
+    margin: auto;
+    padding: 10px; /* Agrega espacio interno alrededor de la sección */
+  }
+  
+  section img {
+    width: 100%; /* Hacer que las imágenes ocupen el ancho del contenedor */
+    max-width: 400px; /* Establecer un ancho máximo para las imágenes */
+    height: auto;
+    margin: 5px; /* Espacio entre las imágenes */
+    opacity: .8;
+    transition: opacity .5s ease, transform .5s ease; /* Agrega transición para opacidad y transformación */
+  }
+  
+  section img:hover {
+    cursor: crosshair;
+    opacity: 1;
+    filter: contrast(120%);
+    transform: scale(1.1); /* Escalar la imagen al hacer hover */
+  }
+  
+  /* Estilos globales y otros estilos que no están relacionados con la sección de imágenes */
+  /* Aquí mantén tus estilos globales y otros estilos que no se aplican a las imágenes */
+  
