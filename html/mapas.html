@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Final</title>
+    <link rel="shortcut icon" href="../pictures/uamc.jpg" type="image/x-icon">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="../js/jquery.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/mapas.css">
+</head>
+
+<body>
+
+
+    <!--Contenedor-->
+    <div class="container">
+        <div class="header"></div>
+
+        <div class="menu" style="text-align: center;">
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="./mapas.html">Mapas</a></li>
+                <li><a href="../html/Galeria.html">Galeria</a></li>
+                <li><a href="./equipo.html">Licenciaturas</a></li>
+            </ul>
+        </div>
+
+
+
+        <!--Contenido-->
+        <div class="content">
+            <h1 style="text-align: center;">Mapas de los alumnos de la UEA <strong>Evaluación de Experiencias
+                    Contemporáneas de Planeación</strong></h1>
+
+            <fieldset class="tarjeta1">
+                <legend style="text-align: center;">Rutas Generales</legend>
+                <div class="wrapper8">
+
+                    <div class="text-box">
+
+
+                        <iframe
+                            src="https://www.google.com/maps/d/embed?mid=1wR_ADngblEKvvU71D0oE-LPybSq7G2A&ehbc=2E312F"
+                            width="900" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrer-policy="no-referrer-when-downgrade" title="Google Maps">
+                        </iframe>
+
+
+                    </div>
+                </div>
+
+                <button id="ocultarElemento8">Ocultar Elemento</button>
+                <button id="mostrarElemento8">Mostrar Elemento</button>
+            </fieldset>
+
+            <fieldset class="tarjeta1">
+                <legend style="text-align: center;">Ruta Salvador Michel Fonseca Neos</legend>
+                <div class="wrapper1">
+                    <div class="card">
+                        <div class="face front">
+                            <img src="../pictures/ss.webp" alt="">
+                            <h3>Fonseca Neos Salvador Michel.</h3>
+                        </div>
+
+                        <div class="face back">
+                            <h3>Fonseca Neos Salvador Michel</h3>
+                            <p style="text-align: justify;">
+                                Hola, mi nombre es Salvador y soy estudiante de la carrera en Tecnologias y Sistemas de
+                                la Información
+                                y vengo desde Ciudad Azteca en Ecatepec De Morelos a estudiar
+                            </p>
+                            <div class="link">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-box">
+                        <p id="mapa">
+                            1.Tomo una combi que me deja en el metro ciudad azteca<br><br>
+                            2.Tomo el metro desde la estación Ciudad Azteca a la Estación Guerrero<br><br>
+                            3.Transbordo de la estación guerrero de la línea b a la misma estación pero de la línea
+                            3<br><br>
+                            4.Tomo el metro desde Guerrero a Centro Médico<br><br>
+                            5.Transbordo de la estación Centro Médico de la línea 3 a la misma estación pero de la línea
+                            9<br><br>
+                            6.Tomo el metro desde Centro Médico hasta Tacubaya<br><br>
+                            7.Tomo el camion de la ruta 5 que se encuentra fuera del metro Tacubaya y me bajo en el
+                            hospital ABC<br><br>
+                            8.Camino del hospital ABC hasta la UAM-CUAJIMALPA<br><br>
+                        </p>
+
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d240836.22994605117!2d-99.32016513239907!3d19.409550099195535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e3!4m5!1s0x85d2074a4aea180d%3A0x1151e61121fd01f3!2sUAM%20Cuajimalpa%2C%20Vasco%20de%20Quiroga%2C%20Contadero%2C%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!3m2!1d19.3520841!2d-99.28262559999999!4m5!1s0x85d1f009c9934ec5%3A0x8c4e8a4058d3e650!2sCiudad%20Azteca%2C%2055120%2C%20Cd%20Azteca%203ra%20Secc%2C%20Ecatepec%20de%20Morelos%2C%20M%C3%A9x.!3m2!1d19.534803699999998!2d-99.027693!5e0!3m2!1ses-419!2smx!4v1706419763312!5m2!1ses-419!2smx"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrer-policy="no-referrer-when-downgrade" title="Google Maps">
+                        </iframe>
+
+
+                    </div>
+                </div>
+
+                <button id="ocultarElemento">Ocultar Elemento</button>
+                <button id="mostrarElemento">Mostrar Elemento</button>
+            </fieldset>
+
+
+            <fieldset>
+                <legend style="text-align: center;">Ruta De Montes de Oca Pérez Josué</legend>
+                <div class="wrapper2">
+                    <div class="card">
+                        <div class="face front">
+                            <img src="../pictures/josue.jpg" alt="">
+                            <h3>Montes de Oca Pérez Josué.</h3>
+                        </div>
+
+                        <div class="face back">
+                            <h3>Montes de Oca Pérez Josué</h3>
+                            <p style="text-align: justify;">
+                                Mi nombre es Josué, soy estudiante de la licenciatura en Estudios Socioterritoriales
+                                y vengo de la Segunda Ampliación presidentes en Álvaro Obregón a estudiar a la UAM
+                                Cuajimalpa
+                            </p>
+                            <div class="link">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-box">
+                        <p id="mapa">
+                            1. Camino de la Av. Gustavo Díaz Ordaz, hacia la Av. Santa Lucía, lo que me toma alrededor
+                            de 10 minutos.<br><br>
+                            2. Tomo el camión Santa Lucía que va de la av. Santa Lucía y av. Tamaulipas hasta el Coral a
+                            un costado del Tecnológico de Monterrey campus Santa Fe. <br><br>
+                            3. En el paradero del Coral en la calle Francisco J Serrano tomo una combi que va hacia
+                            Cuajimalpa el Yaqui. <br><br>
+                            4. La combi pasa por la Estación de Bomberos Santa Fe y por el Arco hacia San Mateo,
+                            posteriormente me deja a un costado del Conalep Santa Fe y camino hacia la UAM Cuajimalpa.
+                            <br><br>
+                            5. Mi recorrido total toma un tiempo estimado de una hora y un aproximado de 9 kilómetros.
+                            <br><br>
+
+                        </p>
+
+                        <iframe
+                            src="https://www.google.com/maps/d/embed?mid=113vu_zGcYM90DfvB09QIs2Vq1Lk-f0U&ehbc=2E312F"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrer-policy="no-referrer-when-downgrade" title="Google Maps">
+                        </iframe>
+
+
+                    </div>
+                </div>
+                <button class="ocultar" id="ocultarElemento2">Ocultar Elemento</button>
+                <button class="mostrar" id="mostrarElemento2">Mostrar Elemento</button>
+            </fieldset>
+
+
+
+
+
+            <fieldset>
+                <legend style="text-align: center;">Ruta De Reyes Espinosa Alonso</legend>
+                <div class="wrapper3">
+                    <div class="card">
+                        <div class="face front">
+                            <img src="../pictures/alonso.jpg" alt="">
+                            <h3>Reyes Espinosa Alonso.</h3>
+                        </div>
+
+                        <div class="face back">
+                            <h3>Reyes Espinosa Alonso</h3>
+                            <p style="text-align: justify;">
+                                Hola, mi nombre es Alonso Reyes Espinosa actualmente estoy estudiando la carrera de
+                                tecnologías y sistemas de información, vivo en la delegación Álvaro Obregón exactamente
+                                en la calle de Av de los pinos,
+                                el medio de transporte que yo utilizo para llegar a la escuela es motocicleta.
+                            </p>
+                            <div class="link">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-box">
+                        <p id="mapa">
+                            1.Paso por el Sanborns las águilas.<br><br>
+                            2.Paso a un lado de la supervia en la que solo pueden entrar coches<br><br>
+                            3.Paso por el Walmart express de las águilas<br><br>
+                            4.Paso por el parque axiomiatla<br><br>
+                            5.Paso por el puente de Av de los poetas<br><br>
+                            6.Paso al lado del tecnológico de monterrey <br><br>
+                            7.Paso al lado del centro comercial santa fe <br><br>
+                            8.Paso al lado del hospital ABC <br><br>
+                        </p>
+
+                        <iframe
+                            src="https://www.google.com/maps/d/embed?mid=1SpkPCrw2lP992ASh1ZlVuY-TEwbweuw&ehbc=2E312F"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrer-policy="no-referrer-when-downgrade" title="Google Maps">
+                        </iframe>
+
+
+                    </div>
+                </div>
+                <button class="ocultar" id="ocultarElemento3">Ocultar Elemento</button>
+                <button class="mostrar" id="mostrarElemento3">Mostrar Elemento</button>
+            </fieldset>
+
+
+
+
+
+            <fieldset>
+                <legend style="text-align: center;">Ruta De Gonzales de Leon Jorge Luis</legend>
+                <div class="wrapper4">
+                    <div class="card">
+                        <div class="face front">
+                            <img src="../pictures/luis.jpg" alt="">
+                            <h3>Gonzales de Leon Jorge Luis.</h3>
+                        </div>
+
+                        <div class="face back">
+                            <h3>Gonzales de Leon Jorge Luis</h3>
+                            <p style="text-align: justify;">
+                                Hola, mi nombre es Luis y soy estudiante de la carrera en Tecnologías y Sistemas de la
+                                Información
+                                y vengo desde la alcaldía Magdalena Contreras.
+                            </p>
+                            <div class="link">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-box">
+                        <p id="mapa">
+                            1.- Inicio en Av. de las Torres (Los Padres).<br><br>
+                            2.- Cruzo el Tanque por las Curvas para salir a Av. de las Torres (Torres de
+                            Potrero).<br><br>
+                            3.- Atravieso el Desierto de los Leones por Luis Echeverría.<br><br>
+                            4.- Me incorporo a Privada Hidalgo.<br><br>
+                            5.- Tomo Miguel Hidalgo hasta La Era y sigo hasta incorporarme a Francisco I Madero<br><br>
+                            6.- Recorro Muitles hasta llegar a Allende.<br><br>
+                            7.- Continúo hasta Carretera San Mateo Santa Rosa.<br><br>
+                            8.- Sigo por San Mateo Santa Rosa hasta Av. Ortega y Salazar y me desvío en Prolongación Av.
+                            Juárez.<br><br>
+                            9.- Tomo Reforma y bajo por Vasco de Quiroga para entrar a la UAM Cuajimalpa.<br><br>
+                        </p>
+
+                        <iframe
+                            src="https://www.google.com/maps/d/embed?mid=1smjf6fOFFgLhJb1tSVkeIGE1rp6M9pk&ehbc=2E312F"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrer-policy="no-referrer-when-downgrade" title="Google Maps">
+                        </iframe>
+
+                    </div>
+                </div>
+                <button class="ocultar" id="ocultarElemento4">Ocultar Elemento</button>
+                <button class="mostrar" id="mostrarElemento4">Mostrar Elemento</button>
+            </fieldset>
+
+
+
+
+
+            <fieldset>
+                <legend style="text-align: center;">Ruta De Manjarrez Sámano Alejandro </legend>
+                <div class="wrapper5">
+                    <div class="card">
+                        <div class="face front">
+                            <img src="../pictures/estrellas.jpg" alt="">
+                            <h3>Manjarrez Sámano Alejandro.</h3>
+                        </div>
+
+                        <div class="face back">
+                            <h3>Manjarrez Sámano Alejandro.</h3>
+                            <p style="text-align: justify;">
+                                Hola, mi nombre es Alejandro Manjarrez Sámano y soy estudiante de la licenciatura
+                                Tecnologías y Sistemas de Información de la UAM unidad Cuajimalpa.
+                                Vengo de Jalalpa, en la alcaldía AO a estudiar.
+                            </p>
+                            <div class="link">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-box">
+                        <p id="mapa">
+                            1. Tomo un taxi que me cruce a la Av. Vasco de Quiroga<br><br>
+                            2. Tomo el camión que diga Hospital ABC o UAM (cuya base final es afuera del Hospital
+                            ABC)<br><br>
+                            3. Camino del Hospital ABC a la UAM.<br><br>
+                        </p>
+
+                        <iframe
+                            src="https://www.google.com/maps/d/embed?mid=12DXnP08rd0jJbCBeeXRq3DQiVmT6H6s&ehbc=2E312F"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrer-policy="no-referrer-when-downgrade" title="Google Maps">
+                        </iframe>
+
+
+                    </div>
+                </div>
+                <button class="ocultar" id="ocultarElemento5">Ocultar Elemento</button>
+                <button class="mostrar" id="mostrarElemento5">Mostrar Elemento</button>
+            </fieldset>
+
+
+
+
+            <fieldset>
+                <legend style="text-align: center;">Ruta De Rodríguez Guevara Rubén Dalí </legend>
+                <div class="wrapper6">
+                    <div class="card">
+                        <div class="face front">
+                            <img src="../pictures/dali.jpg" alt="">
+                            <h3>Rodríguez Guevara Rubén Dalí.</h3>
+                        </div>
+
+                        <div class="face back">
+                            <h3>Rodríguez Guevara Rubén Dalí.</h3>
+                            <p style="text-align: justify;">
+                                Hola, mi nombre es Dalí y soy estudiante de la carrera en Tecnologias y Sistemas de la
+                                Información,
+                                vengo desde el municipio de Chalco en el Estado de México a estudiar.
+                            </p>
+                            <div class="link">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-box">
+                        <p id="mapa">
+                            1. Tomo una combi que me deja en el metro Gómez Farías<br><br>
+                            2. Tomo el metro de la linea 1, de Gómez Farías a Pino Suárez<br><br>
+                            3. Transbordo a la linea azul dirección Tasqueña. <br><br>
+                            4. Tomo el metro para ir a Chabacano. <br><br>
+                            5. Transbordo a la linea café, dirección Tacubaya. <br><br>
+                            6. Tomo el metro para llegar hasta Tacubaya. <br><br>
+                            7. Tomo el camión de la ruta 5, para bajarme hasta el hospital ABC. <br><br>
+                            8. Camino del hospital ABC hacia la UAM. <br><br>
+
+                        </p>
+
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d240902.29545144126!2d-99.22312416654484!3d19.36489298621059!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e3!4m3!3m2!1d19.2590516!2d-98.834272!4m5!1s0x85d2074a4aea180d%3A0x1151e61121fd01f3!2sUAM%20Cuajimalpa%2C%20Vasco%20de%20Quiroga%2C%20Contadero%2C%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!3m2!1d19.3520841!2d-99.28262559999999!5e0!3m2!1ses-419!2smx!4v1706491368274!5m2!1ses-419!2smx"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrer-policy="no-referrer-when-downgrade" title="Google Maps">
+                        </iframe>
+
+
+                    </div>
+                </div>
+                <button class="ocultar" id="ocultarElemento6">Ocultar Elemento</button>
+                <button class="mostrar" id="mostrarElemento6">Mostrar Elemento</button>
+            </fieldset>
+
+
+
+            <fieldset>
+                <legend style="text-align: center;">Ruta De Domínguez Moncada Franklin</legend>
+                <div class="wrapper7">
+                    <div class="card">
+                        <div class="face front">
+                            <img src="../pictures/fran.jpg" alt="">
+                            <h3>Domínguez Moncada Franklin.</h3>
+                        </div>
+
+                        <div class="face back">
+                            <h3>Domínguez Moncada Franklin.</h3>
+                            <p style="text-align:justify;">
+                                Hola, mi nombre es Franklin y soy estudiante de la carrera en Estudios
+                                Socioterritoriales,
+                                vengo desde Pilares Águilas, Alvaro Obregón a la UAM Cuajimalpa.
+                            </p>
+                            <div class="link">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-box">
+                        <p id="mapa">
+                            1.- Inicia al salir de casa en dirección al poniente para tomar la calzada Las
+                            Águilas.<br><br>
+                            2.-Primero paso por el Walmart y el Parque que llevan el mismo nombre de la calle (Las
+                            Águilas).<br><br>
+                            3.- Al llegar al parque tomó la Supervía Pte. para ahora pasar el Parque Ecológico
+                            Tarango.<br><br>
+                            4.- Después es necesario tomar Av. De los Poetas.<br><br>
+                            5.- En seguida tomó la Autopista México-Marquesa.<br><br>
+                            6.- Por la calle del Office Depot que lleva de nombre Carlos Fernández Graef se llega a la
+                            UAM. <br><br>
+                        </p>
+
+                        <iframe
+                            src="https://www.google.com/maps/d/embed?mid=1nxw-7O1Z448oCkNvQKBNzE2jDZbpL0g&ehbc=2E312F"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrer-policy="no-referrer-when-downgrade" title="Google Maps">
+                        </iframe>
+
+
+                    </div>
+                </div>
+                <button class="ocultar" id="ocultarElemento7">Ocultar Elemento</button>
+                <button class="mostrar" id="mostrarElemento7">Mostrar Elemento</button>
+            </fieldset>
+
+
+
+            <fieldset>
+                <legend style="text-align: center;">Ruta de Genaro Zavaleta Salgado</legend>
+                <div class="wrapper9">
+                    <div class="card">
+                        <div class="face front">
+                            <img src="../pictures/genaro.jpg" alt="">
+                            <h3>Genaro Zavaleta Salgado.</h3>
+                        </div>
+
+                        <div class="face back">
+                            <h3>Genaro Zavaleta Salgado.</h3>
+                            <p style="text-align:left;">
+                                Soy Genaro Zavaleta Salgado estudiante de la licenciatura en Estudios
+                                Socioterritoriales,
+                                radico en la alcaldía Cuajimalpa de Morelos a 30 minutos de la UAM-C a pie, y a 20 en
+                                transporte público.
+                            </p>
+                            <div class="link">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-box">
+                        <p id="mapa">
+                            1. Vivo en la calle 16 de Diciembre no. 18, colonia Granjas Navidad.<br><br>
+                            2. Camino por la calle 6 de Enero, Granados y llego a la avenida Héctor Victoria.<br><br>
+                            3. Llego a la Florería Biosfera a las 9:00 am, me voy a la escuela a las 9:40 am<br><br>
+                            4. La primera opción es irme en la combi que me deja en el paradero de Santa Fe.<br><br>
+                            5. Después de bajarme de la combi caminar o tomar el camión que me deja frente al Hospital
+                            ABC.<br><br>
+                            6. La segunda opción es irme caminando “al Yaqui”.<br><br>
+                            7. Bajarme las escaleras del puente del “Yaqui”, pasar frente a la prepa de la ciudad de
+                            México. <br><br>
+                            8. Cruzar por la colonia Memetla o “el atajo”, salir frente al Residencial Mediterránea
+                            #3800.<br><br>
+                            9. De ahí caminar hacia la UAM-C y finalmente cruzar el semáforo y llegar a la
+                            UAM-C.<br><br>
+
+                        </p>
+
+                        <iframe
+                            src="https://www.google.com/maps/d/embed?mid=1m5UUJW0_J8uJhFdk2XTJ-ONIA3DYXLE&ehbc=2E312F"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrer-policy="no-referrer-when-downgrade" title="Google Maps">
+                        </iframe>
+
+
+                    </div>
+                </div>
+                <button class="ocultar" id="ocultarElemento9">Ocultar Elemento</button>
+                <button class="mostrar" id="mostrarElemento9">Mostrar Elemento</button>
+            </fieldset>
+
+
+
+
+            <fieldset>
+                <legend style="text-align: center;">Ruta de Luis Alberto Orozco Caballero</legend>
+                <div class="wrapper10">
+                    <div class="card">
+                        <div class="face front">
+                            <img src="../pictures/oroz.jpg" alt="">
+                            <h3>Luis Alberto Orozco Caballero.</h3>
+                        </div>
+
+                        <div class="face back">
+                            <h3>Luis Alberto Orozco Caballero</h3>
+                            <p style="text-align:left;">
+                                Hola mi nombre es Luis Alberto Orozco Caballero, soy estudiante de la carrera Tecnológias y sistemas de información.
+                                Yo soy originario de Cuajimalpa, por lo tanto tengo la suerte de poder ir caminando hasta la universidad.
+                            </p>
+                            <div class="link">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-box">
+                        <p id="mapa">
+                            1.	Camino sobre calle Monte Casino durante 3 minutos.<br><br> 
+                            2.	Tomo la calle ahuehuetes, camino por otros 5 minutos. <br><br>
+                            3.	Llego a calle San José de los Cedros y camino sobre ella otros 3 minutos.<br><br> 
+                            4.	Llego al primer gran punto de interés que el “Yaqui” donde se encuentra una plaza, en la cual hay un waltmart. <br><br>
+                            5.	Bajo en dirección a memetla, pasando la preparatoria. <br><br>
+                            6.	Camino un par de minutos más y pasando un centro de salud 5 minutos más. 
+                            7.	Llego a avenida Vazco de Quiroga, camino otros 5 minutos para llegar a la universidad pasando por el hospital ABC.<br><br>
+                        </p>
+
+                        <iframe
+                            src="https://www.google.com/maps/d/embed?mid=1g91YGyE-eM_KPtGEJ7UJTlaMesDBpPI&ehbc=2E312F"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrer-policy="no-referrer-when-downgrade" title="Google Maps">
+                        </iframe>
+
+
+                    </div>
+                </div>
+                <button class="ocultar" id="ocultarElemento10">Ocultar Elemento</button>
+                <button class="mostrar" id="mostrarElemento10">Mostrar Elemento</button>
+            </fieldset>
+
+
+            <fieldset>
+                <legend style="text-align: center;">Ruta de Alfonso Gonzále Castillo</legend>
+                <div class="wrapper11">
+                    <div class="card">
+                        <div class="face front">
+                            <img src="../pictures/alfonso.jpg" alt="">
+                            <h3>Alfonso Gonzále Castillo.</h3>
+                        </div>
+
+                        <div class="face back">
+                            <h3></h3>Alfonso Gonzále Castillo.</h3>
+                            <p style="text-align:left;">
+                                Soy Alfonso González Castillo de la carrera de EST y vengo desde Observatorio para la UAM Cuajimalpa
+
+                            </p>
+                            <div class="link">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-box">
+                        <p id="mapa">
+                            1.- tomo un pesero para la esperanza de Av. México Toluca <br><br>
+                            1.- Subo a tomar un camión para la AV. México Toluca <br><br>
+                            3.- Tomo ese camión y se va por todo el pueblo de Santa Fe <br><br>
+                            4.- Llega a el centro comercial y sube al Hospital ABC y me bajo <br><br>
+                            5.- Camino una cuadra para la UAM Cuajimalpa <br><br>
+
+                        </p>
+
+                        <iframe
+                            src="https://www.google.com/maps/d/embed?mid=1NohNKZhJyOBtQSPno5ADlM26MhWW2e8&ehbc=2E312F"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrer-policy="no-referrer-when-downgrade" title="Google Maps">
+                        </iframe>
+
+
+                    </div>
+                </div>
+                <button class="ocultar" id="ocultarElemento11">Ocultar Elemento</button>
+                <button class="mostrar" id="mostrarElemento11">Mostrar Elemento</button>
+            </fieldset>
+
+
+
+            
+            <fieldset>
+                <legend style="text-align: center;">Ruta de Diego Hernández González</legend>
+                <div class="wrapper12">
+                    <div class="card">
+                        <div class="face front">
+                            <img src="../pictures/uamc.jpg" alt="">
+                            <h3>Diego Hernández González.</h3>
+                        </div>
+
+                        <div class="face back">
+                            <h3></h3>Diego Hernández González.</h3>
+                            <p style="text-align:left;">
+                                Mi nombre es Diego Hernández González, soy estudiante de la carrera 
+                                en ingeniería biológica en la universidad autónoma metropolitana. 
+                            </p>
+                            <div class="link">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-box">
+                        <p id="mapa">
+                            1.Camino 5 minutos a la avenida palmas para tomar un micro que me lleva al paradero de cuatro caminos. 8 km con un tiempo aproximado de 1:15 <br><br>
+                            2.Para entrar al metro debo caminar por 5 minutos más <br><br>
+                            3.Tomo el metro cuatro caminos dirección Tacuba, transbordo en dirección barranca del muerto y me bajo en Tacubaya. 30 minutos<br><br> 
+                            4.Salgo en Tacubaya y tomo un camión que va desde Tacubaya hasta hospital ABC. Aproximadamente 1:15<br><br> 
+                            5.Camino 5 minutos a la entrada de la escuela. <br><br>
+                            
+                        </p>
+
+                        <iframe
+                            src="https://www.google.com/maps/d/embed?mid=1TCDNleM-QZBiT-BVWTVQiQIwQ94biIQ&ehbc=2E312F" 
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrer-policy="no-referrer-when-downgrade" title="Google Maps">
+                        </iframe>
+
+                        <a href="https://www.youtube.com/embed/T_ZXCqyJ2Mk?si=0eViU4-hx1JoCMqU" target="_blank">
+                            <h2 style="text-align: center;">Visita mi video</h2>
+                        </a>
+
+                    </div>
+                </div>
+                <button class="ocultar" id="ocultarElemento12">Ocultar Elemento</button>
+                <button class="mostrar" id="mostrarElemento12">Mostrar Elemento</button>
+            </fieldset>
+        </div><!--Fin del contenido-->
+
+
+        <!--Pie de página-->
+        <div class="footer" id="pie">
+
+            <p id="titulo"><strong>Contactanos</strong></p>
+
+            <div class="contact-info">
+                <p>
+                    <img class="icon" src="../pictures/llamada-telefonica.png" alt="telefono">
+                    Vía telefónica: 58146500
+                </p>
+                <p>
+                    <img class="icon" src="../pictures/gmail.png" alt="correo">
+                    Vía E-mail: <a href="mailto:ccse@correo.cua.uam.mx" style="color: white;">ccse@correo.cua.uam.mx</a>
+                </p>
+
+
+                <div id="texto">
+                    Unidad Cuajimalpa || División de Ciencias de la Comunicación y Diseño Torre III, 5to. piso.<br>
+                    Avenida Vasco de Quiroga 4871, Colonia Santa Fé Cuajimalpa.<br> Delegación Cuajimalpa de
+                    Morelos, C.P. 05348, México CDMX.
+                </div>
+                </p>
+
+                <div id="iconos">
+                    <a href="https://www.facebook.com/dccd.cua.uam.mx" target="_blank"><img class="icon"
+                            src="../pictures/facebook.png" alt="Facebook"></a>
+                    <a href="https://www.instagram.com/uamdccd/" target="_blank"><img class="icon"
+                            src="../pictures/instagram.png" alt="Instagram"></a>
+                    <a href="https://twitter.com/i/flow/login?redirect_after_login=%2Fuam_dccd" target="_blank"><img
+                            class="icon" src="../pictures/twitter.png" alt="EnlaceX"></a>
+                    <a href="https://www.youtube.com/UAMDCCD" target="_blank"><img class="icon"
+                            src="../pictures/youtube.png" alt="YouTube"></a>
+                </div>
+
+            </div><!--Fin del pie de pagina-->
+
+
+        </div><!--Fin del contenedor-->
+
+
+    </div>
+
+</body>
+
+</html>
