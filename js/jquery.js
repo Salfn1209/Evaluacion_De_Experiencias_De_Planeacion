@@ -246,6 +246,21 @@ $(document).ready(function () {
 });
 
 
+$(document).ready(function () {
+    // Ocultar elemento al cargar la página
+    $(".wrapper13").hide();
+
+    // Animación personalizada al hacer clic en "Ocultar Elemento"
+    $("#ocultarElemento13").click(function() {
+        $(".wrapper13").hide({ height: 'toggle', opacity: 'toggle' }, 'slow');
+    });
+
+    // Animación personalizada al hacer clic en "Mostrar Elemento"
+    $("#mostrarElemento13").click(function() {
+        $(".wrapper13").show({ height: 'toggle', opacity: 'toggle' }, 'slow');
+    });
+});
+
 
 /*
 $(document).ready(function() {
